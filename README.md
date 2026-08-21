@@ -31,6 +31,19 @@ The planned structure is deliberately compact and notebook-oriented:
 
 Each session should alternate short explanations with executable cells and visual checkpoints. The notebooks will use small or prepared datasets so that the workshop can run on a CPU; GPU acceleration is optional.
 
+## Notebooks
+
+Day 1 is divided into independent notebooks so each section can be opened and executed without loading the entire session:
+
+- [00 — Notation and setup](notebooks/day1_00_notation_and_setup.ipynb)
+- [01 — Fundamentals of optimization](notebooks/day1_01_optimization.ipynb)
+- [02 — Linear regression and least squares](notebooks/day1_02_linear_regression.ipynb)
+- [03 — Gradient descent](notebooks/day1_03_gradient_descent.ipynb)
+- [04 — The neuron, nonlinearity, and learning](notebooks/day1_04_neuron_and_learning.ipynb)
+- [05 — Remote sensing and discussion](notebooks/day1_05_remote_sensing_and_discussion.ipynb)
+
+The Day 2 notebook remains a separate skeleton and has not been expanded or reorganized yet.
+
 ## Requirements
 
 - Python 3.11-compatible computer with internet access.
