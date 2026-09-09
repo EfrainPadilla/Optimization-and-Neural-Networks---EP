@@ -35,6 +35,10 @@ Neurons, activation functions, losses, and the mathematics of learning.
 
 Multispectral data, single-neuron models, and discussion statements.
 
+### 06 — Tensors and multidimensional remote-sensing data
+
+Vectors, matrices, third-order image cubes, and spatial-spectral structure using Kolda and Bader's notation.
+
 Each section alternates short explanations with executable cells and visual checkpoints. The notebooks use small or prepared datasets so that the workshop can run on a CPU; GPU acceleration is optional.
 
 ## Notebooks
@@ -47,6 +51,7 @@ Each completed section is an independent notebook:
 - [03 — Gradient descent](notebooks/03_gradient_descent.ipynb)
 - [04 — The neuron, nonlinearity, and learning](notebooks/04_neuron_and_learning.ipynb)
 - [05 — Remote sensing and discussion](notebooks/05_remote_sensing_and_discussion.ipynb)
+- [06 — Tensors and multidimensional remote-sensing data](notebooks/06_tensors_and_remote_sensing.ipynb)
 
 Additional feature-extraction material remains a draft and is not part of the numbered sequence yet.
 
